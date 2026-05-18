@@ -42,16 +42,11 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Reduce sidebar width */
+/* Balanced spacing */
 .sidebar {
-  width: 260px !important;
-  min-width: 260px !important;
-}
-
-.page {
-  padding-left: 340px !important;
+  width: 250px !important;
 }
 
 .archive {
-  padding-left: 340px !important;
+  padding-left: 120px !important;
 }
