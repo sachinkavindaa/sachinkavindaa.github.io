@@ -44,12 +44,14 @@
 
 /* Reduce sidebar width */
 .sidebar {
-  width: 280px;
-  margin-right: 60px;
+  width: 260px !important;
+  min-width: 260px !important;
+}
+
+.page {
+  padding-left: 340px !important;
 }
 
 .archive {
-  padding-left: 80px;
-  max-width: 850px;
+  padding-left: 340px !important;
 }
-
