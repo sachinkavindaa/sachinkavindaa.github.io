@@ -44,10 +44,12 @@
 
 /* Reduce sidebar width */
 .sidebar {
-  width: 220px;
+  width: 280px;
+  margin-right: 60px;
 }
 
-/* Reduce space between sidebar and content */
 .archive {
-  padding-left: 22px;
+  padding-left: 80px;
+  max-width: 850px;
 }
+
