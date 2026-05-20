@@ -11,14 +11,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Animal Science, University of Lincoln-Nebraska, United States, 2027
+* B.S. in Mathematics & Physics, University of Ruhuna, Sri Lanka, 2023
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* Since - 2025: Graduate Research Assistance *Univ. of Nebraska-Lincoln*
+  * Univ. of Nebraska-Lincoln
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
