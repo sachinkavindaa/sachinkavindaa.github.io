@@ -7,12 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student in Animal Science at the Univ. of Nebraska–Lincoln with a background in Mathematics and Computer Science. My research combines bioinformatics, computational biology, microbiome science, and data driven approaches to better understand animal health and host–microbe interactions.
+I am a graduate student in Animal Science at the University of Nebraska–Lincoln with a background in Mathematics and Computer Science. My research combines bioinformatics, computational biology, mathematical modeling, microbiome science, and data-driven approaches to better understand animal health and host–microbe interactions.
 
 My work focuses on shotgun metagenomics, microbial community analysis, microbiome sequencing, and computational analysis of large-scale biological datasets. I am particularly interested in infectious bovine keratoconjunctivitis (IBK), microbial genomics, and genetically engineered microbes in cattle.
 
-In addition to computational research, I also have hands-on wet lab experience in molecular biology and microbiome-related laboratory techniques. My interdisciplinary background allows me to integrate biological experiments with computational and machine learning approaches for microbiome research and precision animal health.
+I have experience developing bioinformatics pipelines, high-performance computing (HPC) workflows, and applying machine learning and mathematical modeling techniques to biological data. In addition to computational research, I also have hands-on wet lab experience in molecular biology and microbiome-related laboratory techniques.
 
+My interdisciplinary background allows me to integrate experimental biology with computational and machine learning approaches for microbiome research and precision animal health.
 
 A data-driven personal website
 ======
