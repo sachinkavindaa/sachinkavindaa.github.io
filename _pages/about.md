@@ -35,19 +35,37 @@ Technologies used: *Python, Jupyter Notebook, R.*
 ### Subfamily Classification and Functional Analysis of CAZy Family GH5
 *Aug 2025 – Dec 2025*
 
-Developed a bioinformatics workflow for the classification and functional characterization of the CAZy GH5 glycoside hydrolase family, a highly diverse enzyme family involved in carbohydrate metabolism. The project integrated sequence analysis, domain annotation, network biology, and phylogenetics to identify and analyze GH5 subfamilies and their potential functional relationships.
-
-Key Technical Work
-• Processed and curated large-scale protein sequence datasets
-• Performed domain annotation using HMMER and dbCAN
-• Extracted protein modules based on conserved domain architectures
-• Constructed and analyzed Sequence Similarity Networks (SSNs) using SSNpipe
-• Integrated characterized proteins and EC numbers for functional interpretation
-• Visualized biological networks and protein relationships in Cytoscape
-• Conducted multiple sequence alignment and phylogenetic analysis using MAFFT
-• Developed Linux/Bash-based workflows and automated analysis pipelines on HCC environments
+Developed a bioinformatics workflow to study the CAZy GH5 glycoside hydrolase family, an important group of enzymes involved in breaking down carbohydrates. The project focused on classifying GH5 proteins into subfamilies and understanding their possible functions using sequence analysis, domain annotation, network analysis, and phylogenetic methods. Large protein sequence datasets were processed and analyzed using tools such as HMMER, dbCAN, SSNpipe, Cytoscape, and MAFFT. The study also included building Sequence Similarity Networks (SSNs), analyzing conserved protein domains, integrating EC numbers for functional interpretation, and visualizing protein relationships. Linux, Bash scripting, and HCC computing environments were used to automate and manage the workflow efficiently.
 
 Technologies used:  *Python, Bash, Linux, HMMER, dbCAN, SSNpipe, Cytoscape, MAFFT, High-Performance Computing (HPC)*
+
+### Mathematical Modeling of Cell Signalling Pathways in Cancer: Numerical Investigation and Stability Analysis
+*Oct 2022 – Feb 2023*
+
+This project focused on understanding how cancer-related cell signalling pathways control apoptosis (programmed cell death) using mathematical modeling. The study investigated the interactions between important proteins such as STAT1, STAT3, Bcl-2, and BAX, which play key roles in cancer cell survival and cell death. A mathematical model based on ordinary differential equations (ODEs) was developed to represent the signalling network, and numerical methods including Euler’s Method and the Runge-Kutta Fourth-Order Method were used to analyze the system. The study examined the stability of different equilibrium points under varying conditions and showed how changes in signalling pathways can affect downstream cellular responses in cancer. This research highlights the importance of mathematical and computational approaches in understanding complex biological systems and cancer signalling mechanisms.
+
+Technologies used; *Java, Python*
+
+### Numerical Simulations for Selected 1D and 2D Mass Spring Models and Applications
+*Oct 2021 – Jan 2022*
+
+This project focused on studying vibration behavior using one-dimensional (1D) and two-dimensional (2D) mass-spring models. Vibrations are important in many real-world applications, including sound, vision, mechanical systems, and engineering technologies. The study aimed to improve the physical accuracy and visual representation of existing mass-spring models through numerical simulations. The motion of connected oscillator systems was modeled using the Lagrangian approach, and numerical methods were applied to analyze the system behavior. MATLAB was used to simulate the models and compare computational methods, showing that the Runge-Kutta Fourth-Order Method provided more efficient and accurate numerical results for solving vibration-related problems.
+
+Technologies Used: Matlab
+
+### Low-grade glioma tumour segmentation and area calculation using convolutional neural networks
+*Feb 2021 – May 2021*
+
+This project focused on detecting and segmenting low-grade glioma brain tumors from MRI brain images using deep learning techniques. The study used a dataset from The Cancer Imaging Archive containing 3,929 MRI images of lower-grade glioma patients. Convolutional Neural Networks (CNNs) and deep learning models were implemented in Google Colab to automatically identify tumor regions and calculate tumor areas. The dataset was divided into training, testing, and validation sets in a 70:15:15 ratio. Model performance was evaluated using Intersection over Union (IoU) and Sørensen Dice Coefficient scores. The study tested multiple training epochs and achieved the best performance at 50 epochs, reaching 99.92% training accuracy and 92.64% validation accuracy. The developed approach demonstrated that deep learning can effectively automate brain tumor segmentation and area calculation from MRI images with high accuracy.
+
+Technologies Used: *Python*
+
+### Numerical investigation of a mathematical model for CD4+ and Cytokines interaction on tumour growth
+*Apr 2021 – May 2021*
+
+This project focused on studying how CD4+ immune cells and cytokines interact with tumor growth using mathematical modeling and numerical analysis. The research explored how cancer immunotherapy can help the immune system recognize and destroy tumor cells. Mathematical models were developed to analyze the interactions between tumors, CD4+ cells, and cytokines, and to study the effects of different treatment doses on tumor regression. The results showed that treatment dosage plays an important role in controlling tumor growth, and that higher cytokine doses could potentially eliminate tumor cells completely. Numerical simulations and analysis were carried out using Python and MATLAB.
+
+Technologies Used: *Python, Matlab*
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
 - [MathJax](https://www.mathjax.org/) for mathematical equations
