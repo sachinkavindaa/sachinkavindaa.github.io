@@ -19,13 +19,12 @@ Projects
 ======
 
 Metagenomic Identification and Variant Analysis of a Viral Genome
-[Jan 2026 – May 2026]
-------
-Associated with University of Nebraska-Lincoln
-Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data. Performed metagenomic classification, genome alignment, coverage analysis, and variant detection using Centrifuge, Minimap2, Samtools, and Bcftools. Used Linux, Bash scripting, SLURM, and Git/GitHub to automate and manage the workflow. Successfully identified Lone Star virus (Bandavirus amblyommae), reconstructed its three-segment genome, and analyzed genetic variants.
+Jan 2026 – May 2026
 
-Technologies used: Linux, Bash, HPC Cluster, SLURM, Git, GitHub, Centrifuge, Minimap2, Samtools, Bcftools, Nanopore Sequencing. 
-------
+Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data. Performed metagenomic classification, genome alignment, coverage analysis, and variant detection using Centrifuge, Minimap2, Samtools, and Bcftools.
+Used Linux, Bash scripting, SLURM, and Git/GitHub to automate and manage the workflow. Successfully identified Lone Star virus (Bandavirus amblyommae), reconstructed its three-segment genome, and analyzed genomic variants.
+
+Technologies: Linux, Bash, HPC Cluster, SLURM, Git, GitHub, Centrifuge, Minimap2, Samtools, Bcftools, Nanopore Sequencing.
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
 - [MathJax](https://www.mathjax.org/) for mathematical equations
