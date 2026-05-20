@@ -15,10 +15,11 @@ I have experience developing bioinformatics pipelines, high-performance computin
 
 My interdisciplinary background allows me to integrate experimental biology with computational and machine learning approaches for microbiome research and precision animal health.
 
-Professional Experience 
+Projects
 ======
 
-Grduate Research Assistance 
+Metagenomic Identification and Variant Analysis of a Viral Genome
+[Jan 2026 – May 2026]
 ------
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
