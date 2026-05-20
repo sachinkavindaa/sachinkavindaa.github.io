@@ -72,7 +72,7 @@ For those users that need more advanced functionality, the template also support
 - [Mermaid](https://mermaid.js.org/) for diagraming
 - [Plotly](https://plotly.com/javascript/) for plotting
 
-International Research Experience
+## International Research Experience
 
 ### EMBL Lautenschläger Summer School – Visualising Life
 *Jul 2022 · Heidelberg, Baden-Württemberg, Germany*
@@ -80,7 +80,7 @@ International Research Experience
 Participated in an intensive international summer research program at the European Molecular Biology Laboratory (EMBL) focused on modern biological imaging and computational analysis techniques.
 Gained hands-on experience in building high-speed microscopes for imaging developing organisms and applying machine learning approaches to analyze complex biological image data. The program included theoretical lectures, laboratory practicals, and collaborative scientific discussions led by EMBL group leaders and PhD researchers.
 
-Event [link] (Event: https://www.embl.org/news/events/visualising-life-embl-lautenschlager-summer-school-2022/)
+[EMBL Summer School 2022](https://www.embl.org/news/events/visualising-life-embl-lautenschlager-summer-school-2022/)
 
 Topics: *Biological Imaging, Microscopy, Machine Learning, Computational Biology, Image Analysis*
 
