@@ -3,5 +3,28 @@ title: "Portfolio item number 1"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
+---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+title: "Metagenomic Identification and Variant Analysis of a Viral Genome"
+collection: portfolio
+permalink: /portfolio/virus-genome-analysis
+-------------------------------------------
+
+Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data.
+
+Performed metagenomic classification, genome alignment, coverage analysis, and variant detection using Centrifuge, Minimap2, Samtools, and Bcftools.
+
+Used Linux, Bash scripting, SLURM, and Git/GitHub to automate and manage the workflow. Successfully identified Lone Star virus (*Bandavirus amblyommae*), reconstructed its three-segment genome, and analyzed genomic variants.
+
+## Technologies
+
+* Linux
+* Bash
+* HPC Cluster
+* SLURM
+* Git/GitHub
+* Centrifuge
+* Minimap2
+* Samtools
+* Bcftools
+* Nanopore Sequencing
