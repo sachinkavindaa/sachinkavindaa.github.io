@@ -17,7 +17,8 @@ My interdisciplinary background allows me to integrate experimental biology with
 
 Projects
 ======
-### Metagenomic Identification and Variant Analysis of a Viral Genome *Jan 2026 – May 2026*
+### Metagenomic Identification and Variant Analysis of a Viral Genome 
+*Jan 2026 – May 2026*
 
 Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data. Performed metagenomic classification, genome alignment, coverage analysis, and variant detection using Centrifuge, Minimap2, Samtools, and Bcftools.
 Used Linux, Bash scripting, SLURM, and Git/GitHub to automate and manage the workflow. Successfully identified Lone Star virus (Bandavirus amblyommae), reconstructed its three-segment genome, and analyzed genomic variants.
@@ -30,6 +31,23 @@ Technologies: *Linux, Bash, HPC Cluster, SLURM, Git, GitHub, Centrifuge, Minimap
 Designed and developed an end-to-end machine learning pipeline to predict ride fares for Uber and Lyft using large-scale real-world ride and weather datasets. Processed large datasets through data cleaning, missing value treatment, encoding, and feature engineering. Developed and optimized regression models, including Random Forest and Gradient Boosting, to improve fare prediction accuracy. Evaluated model performance using RMSE and R² metrics, and created visual comparisons to communicate business insights. Demonstrated strong skills in predictive analytics, scalable data processing, and machine learning workflows.
 
 Technologies used: *Python, Jupyter Notebook, R.*
+
+### Subfamily Classification and Functional Analysis of CAZy Family GH5
+*Aug 2025 – Dec 2025*
+
+Developed a bioinformatics workflow for the classification and functional characterization of the CAZy GH5 glycoside hydrolase family, a highly diverse enzyme family involved in carbohydrate metabolism. The project integrated sequence analysis, domain annotation, network biology, and phylogenetics to identify and analyze GH5 subfamilies and their potential functional relationships.
+
+Key Technical Work
+• Processed and curated large-scale protein sequence datasets
+• Performed domain annotation using HMMER and dbCAN
+• Extracted protein modules based on conserved domain architectures
+• Constructed and analyzed Sequence Similarity Networks (SSNs) using SSNpipe
+• Integrated characterized proteins and EC numbers for functional interpretation
+• Visualized biological networks and protein relationships in Cytoscape
+• Conducted multiple sequence alignment and phylogenetic analysis using MAFFT
+• Developed Linux/Bash-based workflows and automated analysis pipelines on HCC environments
+
+Technologies used:  *Python, Bash, Linux, HMMER, dbCAN, SSNpipe, Cytoscape, MAFFT, High-Performance Computing (HPC)*
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
 - [MathJax](https://www.mathjax.org/) for mathematical equations
