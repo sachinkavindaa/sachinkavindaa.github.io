@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Metagenomic Identification and Variant Analysis of a Viral Genome"
+excerpt: "Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 ---
