@@ -17,13 +17,19 @@ My interdisciplinary background allows me to integrate experimental biology with
 
 Projects
 ======
-
 ### Metagenomic Identification and Variant Analysis of a Viral Genome *Jan 2026 – May 2026*
 
 Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data. Performed metagenomic classification, genome alignment, coverage analysis, and variant detection using Centrifuge, Minimap2, Samtools, and Bcftools.
 Used Linux, Bash scripting, SLURM, and Git/GitHub to automate and manage the workflow. Successfully identified Lone Star virus (Bandavirus amblyommae), reconstructed its three-segment genome, and analyzed genomic variants.
 
-Technologies: Linux, Bash, HPC Cluster, SLURM, Git, GitHub, Centrifuge, Minimap2, Samtools, Bcftools, Nanopore Sequencing.
+Technologies: *Linux, Bash, HPC Cluster, SLURM, Git, GitHub, Centrifuge, Minimap2, Samtools, Bcftools, Nanopore Sequencing.*
+
+### Dynamic Ride Fare Prediction Using Weather and Demand Data
+*Jan 2026 – Apr 2026*
+
+Designed and developed an end-to-end machine learning pipeline to predict ride fares for Uber and Lyft using large-scale real-world ride and weather datasets. Processed large datasets through data cleaning, missing value treatment, encoding, and feature engineering. Developed and optimized regression models, including Random Forest and Gradient Boosting, to improve fare prediction accuracy. Evaluated model performance using RMSE and R² metrics, and created visual comparisons to communicate business insights. Demonstrated strong skills in predictive analytics, scalable data processing, and machine learning workflows.
+
+Technologies used: *Python, Jupyter Notebook, R.*
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
 - [MathJax](https://www.mathjax.org/) for mathematical equations
