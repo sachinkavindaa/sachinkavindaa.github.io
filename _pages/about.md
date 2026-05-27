@@ -2,189 +2,80 @@
 permalink: /
 title: "Bio"
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
-
-<style>
-.hero {
-  padding: 30px;
-  border-radius: 20px;
-  background: linear-gradient(135deg, #eef6ff, #ffffff);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  margin-bottom: 30px;
-}
-
-.hero h1 {
-  margin-top: 0;
-  font-size: 2rem;
-}
-
-.badge {
-  display: inline-block;
-  padding: 7px 13px;
-  margin: 5px;
-  border-radius: 20px;
-  background: #e8f1ff;
-  font-size: 0.85rem;
-}
-
-.filter-btn {
-  padding: 8px 14px;
-  margin: 5px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  background: #007acc;
-  color: white;
-}
-
-.project-card {
-  padding: 20px;
-  margin: 18px 0;
-  border-radius: 16px;
-  background: #ffffff;
-  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
-  transition: 0.25s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-.project-card summary {
-  font-size: 1.1rem;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.tech {
-  font-size: 0.9rem;
-  color: #555;
-}
-</style>
-
-<div class="hero">
-  <h1>Hi, I’m Sachin Chandrasekara</h1>
-  <p>
-    Graduate student in Animal Science at the University of Nebraska–Lincoln,
-    working at the intersection of microbiome science, bioinformatics,
-    computational biology, mathematical modeling, and machine learning.
-  </p>
-
-  <span class="badge">Bioinformatics</span>
-  <span class="badge">Metagenomics</span>
-  <span class="badge">Microbiome</span>
-  <span class="badge">HPC / SLURM</span>
-  <span class="badge">Python</span>
-  <span class="badge">R</span>
-  <span class="badge">Machine Learning</span>
-</div>
-
-## About Me
 
 I am a graduate student in Animal Science at the University of Nebraska–Lincoln with a background in Mathematics and Computer Science. My research combines bioinformatics, computational biology, mathematical modeling, microbiome science, and data-driven approaches to better understand animal health and host–microbe interactions.
 
 My work focuses on shotgun metagenomics, microbial community analysis, microbiome sequencing, and computational analysis of large-scale biological datasets. I am particularly interested in infectious bovine keratoconjunctivitis (IBK), microbial genomics, and genetically engineered microbes in cattle.
 
-## Projects
+I have experience developing bioinformatics pipelines, high-performance computing (HPC) workflows, and applying machine learning and mathematical modeling techniques to biological data. In addition to computational research, I also have hands-on wet lab experience in molecular biology and microbiome-related laboratory techniques.
 
-<button class="filter-btn" onclick="filterProjects('all')">All</button>
-<button class="filter-btn" onclick="filterProjects('bioinformatics')">Bioinformatics</button>
-<button class="filter-btn" onclick="filterProjects('ml')">Machine Learning</button>
-<button class="filter-btn" onclick="filterProjects('math')">Mathematical Modeling</button>
+My interdisciplinary background allows me to integrate experimental biology with computational and machine learning approaches for microbiome research and precision animal health.
 
-<div class="project-card bioinformatics">
-<details open>
-<summary>Metagenomic Identification and Variant Analysis of a Viral Genome</summary>
-
+Projects
+======
+### Metagenomic Identification and Variant Analysis of a Viral Genome 
 *Jan 2026 – May 2026*
 
-Developed a viral genome analysis pipeline on a High-Performance Computing cluster to identify a mystery virus from Nanopore sequencing data.
+Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data. Performed metagenomic classification, genome alignment, coverage analysis, and variant detection using Centrifuge, Minimap2, Samtools, and Bcftools.
+Used Linux, Bash scripting, SLURM, and Git/GitHub to automate and manage the workflow. Successfully identified Lone Star virus (Bandavirus amblyommae), reconstructed its three-segment genome, and analyzed genomic variants.
 
-Performed metagenomic classification, genome alignment, coverage analysis, and variant detection using Centrifuge, Minimap2, Samtools, and Bcftools.
+Technologies: *Linux, Bash, HPC Cluster, SLURM, Centrifuge, Minimap2, Samtools, Bcftools, Nanopore Sequencing.*
 
-<p class="tech"><strong>Technologies:</strong> Linux, Bash, HPC, SLURM, Centrifuge, Minimap2, Samtools, Bcftools, Nanopore Sequencing</p>
-</details>
-</div>
-
-<div class="project-card ml">
-<details>
-<summary>Dynamic Ride Fare Prediction Using Weather and Demand Data</summary>
-
+### Dynamic Ride Fare Prediction Using Weather and Demand Data
 *Jan 2026 – Apr 2026*
 
-Designed an end-to-end machine learning pipeline to predict Uber and Lyft fares using ride and weather datasets.
+Designed and developed an end-to-end machine learning pipeline to predict ride fares for Uber and Lyft using large-scale real-world ride and weather datasets. Processed large datasets through data cleaning, missing value treatment, encoding, and feature engineering. Developed and optimized regression models, including Random Forest and Gradient Boosting, to improve fare prediction accuracy. Evaluated model performance using RMSE and R² metrics, and created visual comparisons to communicate business insights. Demonstrated strong skills in predictive analytics, scalable data processing, and machine learning workflows.
 
-<p class="tech"><strong>Technologies:</strong> Python, Jupyter Notebook, R, Random Forest, Gradient Boosting</p>
-</details>
-</div>
+Technologies used: *Python, Jupyter Notebook, R.*
 
-<div class="project-card bioinformatics">
-<details>
-<summary>Subfamily Classification and Functional Analysis of CAZy Family GH5</summary>
-
+### Subfamily Classification and Functional Analysis of CAZy Family GH5
 *Aug 2025 – Dec 2025*
 
-Developed a bioinformatics workflow to classify GH5 proteins into subfamilies and analyze their possible functions using sequence analysis, domain annotation, network analysis, and phylogenetic methods.
+Developed a bioinformatics workflow to study the CAZy GH5 glycoside hydrolase family, an important group of enzymes involved in breaking down carbohydrates. The project focused on classifying GH5 proteins into subfamilies and understanding their possible functions using sequence analysis, domain annotation, network analysis, and phylogenetic methods. Large protein sequence datasets were processed and analyzed using tools such as HMMER, dbCAN, SSNpipe, Cytoscape, and MAFFT. The study also included building Sequence Similarity Networks (SSNs), analyzing conserved protein domains, integrating EC numbers for functional interpretation, and visualizing protein relationships. Linux, Bash scripting, and HCC computing environments were used to automate and manage the workflow efficiently.
 
-<p class="tech"><strong>Technologies:</strong> Python, Bash, Linux, HMMER, dbCAN, SSNpipe, Cytoscape, MAFFT, HPC</p>
-</details>
-</div>
+Technologies used:  *Python, Bash, Linux, HMMER, dbCAN, SSNpipe, Cytoscape, MAFFT, High-Performance Computing (HPC)*
 
-<div class="project-card math">
-<details>
-<summary>Mathematical Modeling of Cell Signalling Pathways in Cancer</summary>
-
+### Mathematical Modeling of Cell Signalling Pathways in Cancer: Numerical Investigation and Stability Analysis
 *Oct 2022 – Feb 2023*
 
-Developed mathematical models using ordinary differential equations to study cancer-related cell signalling pathways and apoptosis.
+This project focused on understanding how cancer-related cell signalling pathways control apoptosis (programmed cell death) using mathematical modeling. The study investigated the interactions between important proteins such as STAT1, STAT3, Bcl-2, and BAX, which play key roles in cancer cell survival and cell death. A mathematical model based on ordinary differential equations (ODEs) was developed to represent the signalling network, and numerical methods including Euler’s Method and the Runge-Kutta Fourth-Order Method were used to analyze the system. The study examined the stability of different equilibrium points under varying conditions and showed how changes in signalling pathways can affect downstream cellular responses in cancer. This research highlights the importance of mathematical and computational approaches in understanding complex biological systems and cancer signalling mechanisms.
 
-<p class="tech"><strong>Technologies:</strong> Java, Python, ODE Modeling, Numerical Methods</p>
-</details>
-</div>
+Technologies used; *Java, Python*
 
-<div class="project-card math">
-<details>
-<summary>Numerical Simulations for 1D and 2D Mass Spring Models</summary>
-
+### Numerical Simulations for Selected 1D and 2D Mass Spring Models and Applications
 *Oct 2021 – Jan 2022*
 
-Studied vibration behavior using one-dimensional and two-dimensional mass-spring models with numerical simulations.
+This project focused on studying vibration behavior using one-dimensional (1D) and two-dimensional (2D) mass-spring models. Vibrations are important in many real-world applications, including sound, vision, mechanical systems, and engineering technologies. The study aimed to improve the physical accuracy and visual representation of existing mass-spring models through numerical simulations. The motion of connected oscillator systems was modeled using the Lagrangian approach, and numerical methods were applied to analyze the system behavior. MATLAB was used to simulate the models and compare computational methods, showing that the Runge-Kutta Fourth-Order Method provided more efficient and accurate numerical results for solving vibration-related problems.
 
-<p class="tech"><strong>Technologies:</strong> MATLAB, Numerical Simulation, Runge-Kutta Method</p>
-</details>
-</div>
+Technologies Used: Matlab
+
+### Low-grade glioma tumour segmentation and area calculation using convolutional neural networks
+*Feb 2021 – May 2021*
+
+This project focused on detecting and segmenting low-grade glioma brain tumors from MRI brain images using deep learning techniques. The study used a dataset from The Cancer Imaging Archive containing 3,929 MRI images of lower-grade glioma patients. Convolutional Neural Networks (CNNs) and deep learning models were implemented in Google Colab to automatically identify tumor regions and calculate tumor areas. The dataset was divided into training, testing, and validation sets in a 70:15:15 ratio. Model performance was evaluated using Intersection over Union (IoU) and Sørensen Dice Coefficient scores. The study tested multiple training epochs and achieved the best performance at 50 epochs, reaching 99.92% training accuracy and 92.64% validation accuracy. The developed approach demonstrated that deep learning can effectively automate brain tumor segmentation and area calculation from MRI images with high accuracy.
+
+Technologies Used: *Python*
+
+### Numerical investigation of a mathematical model for CD4+ and Cytokines interaction on tumour growth
+*Apr 2021 – May 2021*
+
+This project focused on studying how CD4+ immune cells and cytokines interact with tumor growth using mathematical modeling and numerical analysis. The research explored how cancer immunotherapy can help the immune system recognize and destroy tumor cells. Mathematical models were developed to analyze the interactions between tumors, CD4+ cells, and cytokines, and to study the effects of different treatment doses on tumor regression. The results showed that treatment dosage plays an important role in controlling tumor growth, and that higher cytokine doses could potentially eliminate tumor cells completely. Numerical simulations and analysis were carried out using Python and MATLAB.
+
+Technologies Used: *Python, Matlab*
 
 ## International Research Experience
 
-<div class="project-card bioinformatics">
-<details>
-<summary>EMBL Lautenschläger Summer School – Visualising Life</summary>
+### EMBL Lautenschläger Summer School – Visualising Life
+*Jul 2022 · Heidelberg, Baden-Württemberg, Germany*
 
-*Jul 2022 · Heidelberg, Germany*
-
-Participated in an international summer research program at EMBL focused on biological imaging, microscopy, and computational image analysis.
+Participated in an intensive international summer research program at the European Molecular Biology Laboratory (EMBL) focused on modern biological imaging and computational analysis techniques.
+Gained hands-on experience in building high-speed microscopes for imaging developing organisms and applying machine learning approaches to analyze complex biological image data. The program included theoretical lectures, laboratory practicals, and collaborative scientific discussions led by EMBL group leaders and PhD researchers.
 
 [EMBL Summer School 2022](https://www.embl.org/news/events/visualising-life-embl-lautenschlager-summer-school-2022/)
 
-<p class="tech"><strong>Topics:</strong> Biological Imaging, Microscopy, Machine Learning, Computational Biology</p>
-</details>
-</div>
+Topics: *Biological Imaging, Microscopy, Machine Learning, Computational Biology, Image Analysis*
 
-<script>
-function filterProjects(category) {
-  const cards = document.querySelectorAll('.project-card');
-
-  cards.forEach(card => {
-    if (category === 'all') {
-      card.style.display = 'block';
-    } else if (card.classList.contains(category)) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-}
-</script>

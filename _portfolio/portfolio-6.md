@@ -1,98 +1,210 @@
 ---
-title: "Subfamily Classification and Functional Analysis of CAZy Family GH5"
-excerpt: "Bioinformatics workflow for classification and functional analysis of the CAZy GH5 glycoside hydrolase family.<br/><img src='/images/gh5.png'>"
+title: "Metagenomic Identification and Variant Analysis of a Viral Genome"
+excerpt: "Developed a viral genome analysis pipeline on a High-Performance Computing (HPC) cluster to identify a mystery virus from Nanopore sequencing data.<br/><img src='/images/A.png'>"
 collection: portfolio
 ---
 
-# Subfamily Classification and Functional Analysis of CAZy Family GH5
+<style>
+.project-card {
+  padding: 28px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #eef6ff, #f8fbff);
+  border: 1px solid #dbeafe;
+  margin-bottom: 28px;
+}
 
-**Aug 2025 – Dec 2025**  
-Associated with University of Nebraska-Lincoln
+.badge {
+  display: inline-block;
+  padding: 7px 13px;
+  margin: 5px;
+  border-radius: 20px;
+  background: #e0f2fe;
+  color: #075985;
+  font-weight: 600;
+  font-size: 14px;
+}
 
-Developed a bioinformatics workflow for the classification and functional characterization of the CAZy GH5 glycoside hydrolase family.
+.github-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 18px;
+  background: #111827;
+  color: white !important;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
----
+.section-box {
+  padding: 22px;
+  margin: 24px 0;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
 
-## GitHub Repository
+.workflow-step {
+  margin: 14px 0;
+  padding: 16px;
+  border-left: 5px solid #2563eb;
+  border-radius: 12px;
+  background: #f8fafc;
+}
 
-🔗 [View Project on GitHub](https://github.com/sachinkavindaa/gh5-subfamily-classification)
+.workflow-step summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #1f2937;
+}
 
----
+.workflow-step:hover {
+  background: #eff6ff;
+  transform: translateX(5px);
+  transition: 0.2s;
+}
 
-## Technologies
+.terminal {
+  background: #111827;
+  color: #d1fae5;
+  padding: 18px;
+  border-radius: 12px;
+  font-family: monospace;
+  overflow-x: auto;
+}
 
-![Python](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python)
-![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux)
-![HPC](https://img.shields.io/badge/HPC-Cluster-green?style=for-the-badge)
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
 
----
+.highlight {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 16px;
+  border-radius: 12px;
+}
+</style>
 
-## Workflow Overview
+<div class="project-card">
 
-```text
-Raw Protein Sequences
-        ↓
-Domain Annotation (HMMER/dbCAN)
-        ↓
-SSN Construction
-        ↓
-Cytoscape Visualization
-        ↓
-Phylogenetic Analysis
-```
+Developed a viral genome analysis pipeline on a High-Performance Computing cluster to identify a mystery virus from Nanopore sequencing data. The project included metagenomic classification, reference alignment, coverage analysis, and variant detection.
 
----
+<a class="github-button" href="https://github.com/sachinkavindaa/virus-genome-analysis" target="_blank">
+View Project on GitHub
+</a>
 
-## Example Workflow Log
+</div>
 
-```bash
-$ module load hmmer
-$ module load mafft
-
-$ hmmscan --domtblout gh5_domains.out dbCAN-HMMdb proteins.faa
-
-Processing protein sequences...
-Domain annotation completed.
-
-$ mafft --auto sequences.fa > aligned.fa
-```
-
----
+<div class="section-box">
 
 ## Project Highlights
 
-✔ Processed large-scale protein sequence datasets  
-✔ Built automated Linux/Bash workflows on HPC  
-✔ Constructed sequence similarity networks  
-✔ Conducted phylogenetic analysis using MAFFT
+<div class="highlight-grid">
 
----
+<div class="highlight">
+<strong>Virus Identification</strong>
+<p>Identified the mystery virus as Lone Star virus.</p>
+</div>
 
-## Network Visualization
+<div class="highlight">
+<strong>Genome Analysis</strong>
+<p>Analyzed three viral genome segments: L, M, and S.</p>
+</div>
 
-<img src="/images/gh5_network.png" width="700">
+<div class="highlight">
+<strong>Variant Calling</strong>
+<p>Detected genomic variants using Samtools and Bcftools.</p>
+</div>
 
----
+<div class="highlight">
+<strong>HPC Workflow</strong>
+<p>Built a reproducible Linux, Bash, and SLURM-based pipeline.</p>
+</div>
 
-## Interactive Technical Details
+</div>
 
-<details>
-<summary><strong>View Domain Annotation Details</strong></summary>
+</div>
 
-Used HMMER and dbCAN to identify conserved CAZy domains within GH5 protein sequences.
+<div class="section-box">
 
+## Interactive Workflow
+
+<details class="workflow-step">
+<summary>1. Raw Nanopore Sequencing Reads</summary>
+<p>Started with sequencing reads from an unknown viral sample.</p>
 </details>
 
-<details>
-<summary><strong>View SSN Analysis</strong></summary>
-
-Constructed Sequence Similarity Networks using SSNpipe and visualized relationships in Cytoscape.
-
+<details class="workflow-step">
+<summary>2. Metagenomic Classification</summary>
+<p>Used Centrifuge to classify reads and identify the likely viral organism.</p>
 </details>
 
----
+<details class="workflow-step">
+<summary>3. Reference Genome Selection</summary>
+<p>Selected Lone Star virus reference genome segments for alignment.</p>
+</details>
 
-## Research Impact
+<details class="workflow-step">
+<summary>4. Read Alignment</summary>
+<p>Mapped reads to the viral reference genome using Minimap2.</p>
+</details>
 
-This project improves understanding of functional diversity within the GH5 enzyme family and supports future bioinformatics and enzyme engineering studies.
+<details class="workflow-step">
+<summary>5. BAM Processing</summary>
+<p>Used Samtools to sort, index, and summarize alignment files.</p>
+</details>
+
+<details class="workflow-step">
+<summary>6. Variant Calling</summary>
+<p>Used Bcftools to identify sequence variants across the viral genome.</p>
+</details>
+
+<details class="workflow-step">
+<summary>7. Biological Interpretation</summary>
+<p>Interpreted variants and genome coverage to understand the identified virus.</p>
+</details>
+
+</div>
+
+<div class="section-box">
+
+## Example Pipeline Log
+
+<pre class="terminal">
+Input reads → Centrifuge classification
+           → Lone Star virus identified
+           → Minimap2 reference alignment
+           → Samtools BAM processing
+           → Bcftools variant calling
+           → Genome segment and mutation analysis
+</pre>
+
+</div>
+
+<div class="section-box">
+
+## Technologies Used
+
+<span class="badge">Linux</span>
+<span class="badge">Bash</span>
+<span class="badge">HPC</span>
+<span class="badge">SLURM</span>
+<span class="badge">Centrifuge</span>
+<span class="badge">Minimap2</span>
+<span class="badge">Samtools</span>
+<span class="badge">Bcftools</span>
+<span class="badge">Nanopore Sequencing</span>
+<span class="badge">Git/GitHub</span>
+
+</div>
+
+<div class="section-box">
+
+## Recruiter-Friendly Summary
+
+This project shows experience in bioinformatics pipeline development, command-line tools, high-performance computing, viral genome analysis, and reproducible research. It demonstrates the ability to move from raw sequencing data to biological interpretation using real computational genomics tools.
+
+</div>
 
