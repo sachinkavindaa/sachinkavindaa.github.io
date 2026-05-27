@@ -101,8 +101,6 @@ summary {
 
 <div class="project-hero">
 
-<h1>Subfamily Classification and Functional Analysis of CAZy Family GH5</h1>
-
 <p><strong>Aug 2025 – Dec 2025</strong></p>
 <p><strong>Associated with University of Nebraska-Lincoln</strong></p>
 
@@ -168,35 +166,6 @@ Functional Interpretation using EC Numbers
 Multiple Sequence Alignment using MAFFT
         ↓
 Phylogenetic and Subfamily Analysis
-</pre>
-
-</div>
-
-<div class="section-card">
-
-<h2>Example Technical Workflow Log</h2>
-
-<pre class="terminal">
-$ module load hmmer
-$ module load mafft
-
-$ hmmscan --domtblout gh5_domains.out dbCAN-HMMdb proteins.faa
-
-Processing GH5 protein sequences...
-Domain annotation completed successfully.
-
-$ python extract_modules.py gh5_domains.out
-
-Extracting conserved domain architectures...
-Protein modules generated.
-
-$ ssnpipe build --input gh5_modules.faa --output gh5_network
-
-Sequence Similarity Network construction completed.
-
-$ mafft --auto gh5_subfamily_sequences.fasta > gh5_alignment.fasta
-
-Multiple sequence alignment completed.
 </pre>
 
 </div>
