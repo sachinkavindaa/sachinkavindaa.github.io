@@ -1,6 +1,6 @@
 ---
 title: "Mathematical Modeling of Cell Signalling Pathways in Cancer"
-excerpt: "Developed a mathematical and computational framework to investigate intracellular apoptosis signalling pathways using differential equation modeling, numerical simulations, and stability analysis.<br/><img src='/images/cancer_model.png'>"
+excerpt: "Developed a mathematical and computational framework to investigate intracellular apoptosis signalling pathways using differential equation modeling, numerical simulations, and stability analysis.<br/><img src='/images/D1.png'>"
 collection: portfolio
 ---
 
