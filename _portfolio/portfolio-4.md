@@ -1,6 +1,6 @@
 ---
 title: "Numerical Simulations for 1D and 2D Mass-Spring Models"
-excerpt: "Developed numerical simulation models for one-dimensional and two-dimensional mass-spring systems using Lagrangian mechanics and Runge-Kutta numerical methods to analyze vibration dynamics and computational efficiency.<br/><img src='/images/mass_spring.png'>"
+excerpt: "Developed numerical simulation models for one-dimensional and two-dimensional mass-spring systems using Lagrangian mechanics and Runge-Kutta numerical methods to analyze vibration dynamics and computational efficiency.<br/><img src='/images/spring.png'>"
 collection: portfolio
 ---
 
@@ -23,7 +23,7 @@ The project demonstrated how numerical methods can improve the accuracy and stab
 
 ## GitHub Repository
 
-🔗 [View Project on GitHub](https://github.com/sachinkavindaa/mass-spring-simulation)
+🔗 [View Project on GitHub](https://github.com/sachinkavindaa/Industrial-Mathematics-L2)
 
 ## Technologies
 
