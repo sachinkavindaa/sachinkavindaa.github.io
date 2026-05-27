@@ -1,6 +1,6 @@
 ---
 title: "Subfamily Classification and Functional Analysis of CAZy Family GH5"
-excerpt: "Developed a bioinformatics workflow for classification and functional characterization of the CAZy GH5 glycoside hydrolase family using sequence analysis, network biology, and phylogenetics.<br/><img src='/images/gh5.png'>"
+excerpt: "Developed a bioinformatics workflow for classification and functional characterization of the CAZy GH5 glycoside hydrolase family using sequence analysis, network biology, and phylogenetics.<br/><img src='/images/NETWORK.png'>"
 collection: portfolio
 ---
 
