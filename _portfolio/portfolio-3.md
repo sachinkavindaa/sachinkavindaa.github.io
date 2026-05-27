@@ -1,30 +1,29 @@
 ---
-title: "Mathematical Modeling of Cell Signalling Pathways in Cancer: Numerical Investigation and Stability Analysis"
-excerpt: "Developed a mathematical model of apoptosis signalling pathways to investigate the interactions between STAT1, STAT3, Bcl-2, and BAX proteins using numerical methods and stability analysis.<br/><img src='/images/cancer-model.png'>"
+title: "Mathematical Modeling of Cell Signalling Pathways in Cancer"
+excerpt: "Developed a mathematical and computational framework to investigate intracellular apoptosis signalling pathways using differential equation modeling, numerical simulations, and stability analysis.<br/><img src='/images/cancer_model.png'>"
 collection: portfolio
 ---
 
-Developed a mathematical model to investigate intracellular cell signalling pathways involved in apoptosis and cancer progression. The study focused on the interactions between STAT1, STAT3, Bcl-2, and BAX proteins and their influence on downstream signalling dynamics. The project applied mathematical modeling and numerical analysis techniques to better understand how genetic alterations affect signalling pathways in cancer.
+Developed a mathematical modeling framework to investigate intracellular cell signalling pathways involved in apoptosis and cancer progression. The project focused on understanding the interactions between STAT1, STAT3, Bcl-2, and BAX proteins and their influence on downstream signalling dynamics in cancer cells.
 
-The research involved constructing a system of ordinary differential equations (ODEs) representing the apoptosis signalling network and analyzing the stability of equilibrium points under different biological conditions.
+The study integrated ordinary differential equation (ODE) modeling, numerical simulations, and stability analysis to explore the behaviour of the signalling network under different biological conditions. Numerical solutions were implemented using Euler’s Method and the Runge-Kutta Fourth-Order (RK4) method to analyze equilibrium points and system stability.
+
+The results demonstrated multiple equilibrium states within the signalling system, including stable and unstable conditions depending on parameter values. This research highlights the importance of mathematical modeling approaches in understanding complex biological systems and cancer-related signalling mechanisms.
 
 ## Key Technical Work
 
-* Developed a mathematical model for intracellular apoptosis signalling pathways
+* Developed ordinary differential equation (ODE) models for intracellular signalling pathways
 * Modeled interactions between STAT1, STAT3, Bcl-2, and BAX proteins
-* Solved systems of ordinary differential equations (ODEs)
-* Performed numerical simulations using Euler’s Method and Runge-Kutta Fourth-Order (RK4) Method
-* Conducted equilibrium point and stability analysis of the signalling network
-* Investigated the effect of parameter variations on system stability
-* Analyzed stable and unstable equilibrium conditions in cancer signalling pathways
-* Visualized numerical simulation results and signalling dynamics
+* Performed numerical simulations using Euler’s Method and Runge-Kutta Fourth-Order (RK4) method
+* Conducted equilibrium point and stability analysis of nonlinear systems
+* Investigated stable and unstable states in apoptosis signalling networks
+* Implemented computational simulations for biological system dynamics
+* Analyzed how signalling pathway alterations impact downstream cellular responses
+* Applied mathematical and computational approaches to cancer biology research
 
-## Research Highlights
+## GitHub Repository
 
-* Identified multiple equilibrium points under varying signalling conditions
-* Demonstrated stable and unstable behaviour depending on parameter values
-* Showed how mathematical modeling can explain downstream signalling alterations in cancer
-* Provided insights into apoptosis regulation and intracellular signalling mechanisms
+🔗 [View Project on GitHub](https://github.com/sachinkavindaa/cancer-cell-signalling-model)
 
 ## Technologies
 
@@ -32,15 +31,19 @@ The research involved constructing a system of ordinary differential equations (
 * Java
 * Mathematical Modeling
 * Ordinary Differential Equations (ODEs)
-* Numerical Analysis
+* Numerical Methods
 * Euler Method
-* Runge-Kutta Fourth-Order Method (RK4)
+* Runge-Kutta Method (RK4)
+* Scientific Computing
 
 ## Skills
 
 * Mathematical Modeling
-* Numerical Simulation
-* Stability Analysis
 * Computational Biology
-* Differential Equations
+* Numerical Analysis
+* Stability Analysis
+* Differential Equation Modeling
+* Cancer Systems Biology
 * Scientific Programming
+* Data Visualization
+
