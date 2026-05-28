@@ -2,7 +2,7 @@
 title: "Graduate Research Assistant"
 collection: experience
 type: "Research and Technical Experience"
-permalink: /experience/graduate-research-assistant
+permalink: /teaching/2014-spring-teaching-1
 venue: "University of Nebraska-Lincoln"
 date: 2025-01-01
 location: "Lincoln, Nebraska, USA"
