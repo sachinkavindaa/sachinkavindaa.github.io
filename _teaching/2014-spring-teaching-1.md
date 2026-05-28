@@ -6,7 +6,7 @@ permalink: /experience/graduate-research-assistant
 venue: "University of Nebraska-Lincoln"
 date: 2025-01-01
 location: "Lincoln, Nebraska, USA"
-----------------------------------
+---
 
 Worked as a Graduate Research Assistant in Animal Science at the University of Nebraska-Lincoln, focusing on microbiome, metagenomics, and bioinformatics research.
 
