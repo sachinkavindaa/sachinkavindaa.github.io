@@ -16,29 +16,16 @@ Education
 
 Work experience
 ======
-* Since - 2025: Graduate Research Assistance *Univ. of Nebraska-Lincoln*
-  * Univ. of Nebraska-Lincoln
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Since - 2025: Graduate Research Assistance *Univ. of Nebraska-Lincoln, United States*
+* Sep 2023 – Dec 2024: Executive – Demand Planning, *Unilever – Colombo, Sri Lanka* 
+* Mar 2023 – Aug 2023: Demand Planning Intern, *Unilever – Colombo, Sri Lanka*
+* July 2022 – July 2022: Summer Intern, *European Molecular Biology Laboratory (EMBL) – Heidelberg, Germany* 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages: Python, C, Java, MATLAB, R, Bash
+* Technologies: High Performing Computing (HPC), Linux, Windows/macOS. 
+* Bioinformtics & Molecular Biology Skills: DNA extraction, PCR, 16s rDNA sequencing.
 
 Publications
 ======
@@ -58,6 +45,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
